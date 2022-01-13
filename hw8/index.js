@@ -22,7 +22,7 @@ function addOneForAll (...args){
 
 
 
-var i = 0;
+let i = 0;
 while(true) {
     if(Math.random() > 0.9) {
         alert(++i)
